@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: url("cup.jpg") no-repeat center;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+  
+}
+/* .dot{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgba(255, 165, 0 ,0.3);
+    margin-left: 95%;
+   
+    
+} */
+
+.container{ 
+    background-color: #fff;
+     border-radius: 10px;
+     text-align: center;
+     opacity: 20;
+   width: 35%;
+   height: 50%;
+   margin-left: 35%;
+   margin-top: 12%;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1) ;
+    padding: 20px 30px;
+}
+h1{
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+.members{
+    padding-top: 10px;
+}
+.form-control{
+   
+    justify-content: center;
+    align-content: space-between;
+    text-align: center;
+   }
+form input{
+    width: 60%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px; 
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color:   #c4c4c4;
+}
+button{
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 18px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 60%;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(5, 101, 165) ;
+}
+button:hover{
+    background-color: rgba(12, 111, 150, 0.877);
+}
+
